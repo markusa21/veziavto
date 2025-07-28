@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ВезиАвто — Авто из США в Россию</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f9fc;
+      color: #222;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #0d3c61;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      position: relative;
+    }
+    .logo {
+      font-size: 36px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0d3c61;
+      margin-bottom: 20px;
+    }
+    .features, .steps, .cars {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .box {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 20px;
+      flex: 1 1 calc(33% - 40px);
+      min-width: 250px;
+    }
+    .contact-form {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    .contact-form button {
+      background: #0d3c61;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: #09508d;
+    }
+    .contacts {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 18px;
+    }
+    .contacts a {
+      color: #0d3c61;
+      text-decoration: none;
+      display: inline-block;
+      margin: 5px 10px;
+    }
+    .contacts a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #0d3c61;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    @media (max-width: 768px) {
+      .box {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ВезиАвто</div>
+  <p>Доставим авто с аукционов США — быстро, безопасно и с гарантией</p>
+</header>
+
+<section>
+  <h2>Почему выбирают нас</h2>
+  <div class="features">
+    <div class="box">✅ Доступ к лучшим аукционам: Copart, IAAI, Manheim</div>
+    <div class="box">📦 Полное сопровождение — от покупки до растаможки</div>
+    <div class="box">🚗 Более 100 авто доставлено клиентам в РФ</div>
+  </div>
+</section>
+
+<section>
+  <h2>Как мы работаем</h2>
+  <div class="steps">
+    <div class="box">1️⃣ Вы оставляете заявку</div>
+    <div class="box">2️⃣ Мы подбираем варианты и делаем расчет</div>
+    <div class="box">3️⃣ Покупаем, доставляем, растамаживаем</div>
+  </div>
+</section>
+
+<section>
+  <h2>Популярные авто с аукционов</h2>
+  <div class="cars">
+    <div class="box">🚙 Toyota Camry 2021 — от $11,000</div>
+    <div class="box">🚘 BMW 3 Series 2019 — от $13,500</div>
+    <div class="box">🚗 Ford Mustang 2018 — от $15,000</div>
+  </div>
+</section>
+
+<section>
+  <h2>Оставьте заявку</h2>
+  <div class="contact-form">
+    <form action="mailto:ismyllin@mail.ru" method="post" enctype="text/plain">
+      <input type="text" name="Имя" placeholder="Ваше имя" required />
+      <input type="tel" name="Телефон" placeholder="Ваш номер WhatsApp" required />
+      <textarea name="Комментарий" placeholder="Какую машину хотите?"></textarea>
+      <button type="submit">Отправить заявку</button>
+    </form>
+    <p style="font-size: 14px; margin-top: 10px;">Мы свяжемся с вами в течение 1 рабочего дня</p>
+  </div>
+
+  <div class="contacts">
+    <h3>Или свяжитесь с нами напрямую:</h3>
+    <a href="https://wa.me/971585455160" target="_blank">📱 WhatsApp</a>
+    <a href="https://t.me/markusa21_bot" target="_blank">🤖 Telegram Бот</a>
+    <a href="mailto:ismyllin@mail.ru">📩 Email</a>
+  </div>
+</section>
+
+<footer>
+  ВезиАвто © 2025 • Авто из США в Россию • ismyllin@mail.ru
+</footer>
+
+</body>
+</html>
